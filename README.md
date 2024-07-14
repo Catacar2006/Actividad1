@@ -9,7 +9,7 @@ En este documento se presenta la investigación que se solicito y se dara a cono
 - Opiconales
 - Manejo de nulos
 
-##Datos a conciderar
+## Datos a conciderar
 
 - El **compain object** es un objeto declarado dentro de una clase que permite definir miembros que pertenecerán a la clase y no a instancias de la misma.
 
