@@ -1,4 +1,4 @@
-#Documentación
+# Documentación
 
 <p>
 En este documento se presenta la investigación que se solicito y se dara a conocer a detalle cada parte. Lo que se solicito fue lo siguiente:
@@ -22,7 +22,7 @@ En este documento se presenta la investigación que se solicito y se dara a cono
 - Se utilizo funciones para poder completar el codigo, es por esto que no se coloca en lo que fue solicita, aún así se explicara.
 
 
-##Variables
+## Variables
 <p>
 Actúa como un contenedor simbólico para almacenar y manipular información donde se puede almacenar un valor. Una variable tiene un nombre único y puede contener diferentes tipos de datos, como números, texto o estructuras más complejas, este valor puede cambiar durante la ejecución del programa, de ahí el término variable. 
 
@@ -43,7 +43,7 @@ Los tipos de variables son:
 
 - Punteros (Pointers): Variables que almacenan direcciones de memoria de otros objetos 	o variables.
 
-###Ejemplo
+### Ejemplo
 
 	( Variable 1)
 	var age: Int? = 15
@@ -55,30 +55,30 @@ Los tipos de variables son:
 	 var name: String = "Camilo"
 
 
-###Explicación del codigo 
+### Explicación del codigo 
 <p>
 Como se han mencionado anteriormente hay varios tipos de variables. En el codigo se a implementado los tipos **String** e **Int**. Se utilizan las palabras reservadas `VAL`( es decir nunca cambia ) y `VAR` ( puede cambiar ) para poder crear las variables que se encuentran en el codigo. 
 </p>
 
-##Constantes
+## Constantes
 
 <P>
 Las constantes solo pueden ser miembros de nivel superior o miembros de un companion object. Esto quiere decir que no deben ser locales ni estar en clases normales. Esto se debe a que las constantes const se resuelven en tiempo de compilación y su valor se reemplaza directamente en el lugar donde se usa, en lugar de acceder a través de una referencia.
 </P>
 
-###Ejemplo
+### Ejemplo
 	class constant {
     	companion object {
         	const val PI = 3.14159
 	 }
 	}
 
-###Explicación del codigo 
+### Explicación del codigo 
 <p>
  Se creo la clasellamada **constant** dentro de esta se encuentra un** companion object** , esto quiere decir que se crea un objeto y en este va estar la constante; cuando esta se vaya a utilizar se llama por fuera de la clase y la constante que se trabaja es `PI `
 </p>
 
-##Opcionales
+## Opcionales
 <p>
 Se refieren a la capacidad de una variable de almacenar un valor nulo (null). Esto es especialmente útil para prevenir errores de referencia nula (también conocidos como "NullPointerExceptions"). 
 
@@ -109,7 +109,7 @@ Se manejan principalmente a través del uso de tipos que pueden contener un valo
         println("El valor de edad es null")
     }
 
-###Explicación del codigo
+### Explicación del codigo
 <p>Se trabaja con el condicional IF para realizar el manejo del nulo que se tiene en el codigo. En este IF se realizara la verificacion de que la variable es nula o no, esto mostrando los siguientes mensjaes:
 </p>
 
@@ -121,7 +121,7 @@ Se manejan principalmente a través del uso de tipos que pueden contener un valo
 <p> Es un bloque de código diseñado para realizar una tarea específica. Sirve para organizar el código de manera modular y reutilizable, lo que promueve la claridad y la eficiencia en el desarrollo de software.
 </p>
 
-###Ejemplo
+### Ejemplo
 	Ejemplo 1:
 	fun saludar(name: String, greeting: String = "Hola") {
     	println("$greeting $name")
@@ -151,7 +151,7 @@ Se manejan principalmente a través del uso de tipos que pueden contener un valo
     
 	}
 
-###Explicación del codigo
+### Explicación del codigo
 <p>Se trabajan 2 funciones, las cuales son **saludar** y **main**</p>
 
 - En la funcion **main**  se ejecuta todo el programa. En este se coloca:
